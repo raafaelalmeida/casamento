@@ -1,39 +1,31 @@
-<html><head id="head">  <title>Example HTML Website</title> 
-    <link rel="stylesheet" href="./styles.css"></head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casamento</title>
+    <link rel="stylesheet" href="./styleprojeto.css">
+</head>
+
+<body>
+
+    <h1 class="topo">Rafaelle&Rafael</h1>
+    <div class="botoes">
+         <a href="home.html"><button>Home</button></a>
+         <a href="conheca-o-casal.html"><button>Conheca o Casal</button></a>
+         <a href="lista-de-presentes.html"><button>Lista de Presentes</button></a>
+         <a href="padrinhos.html"><button>Padrinhos</button></a>
+         <a href="cerimonia.html"><button>Localizacao Cerimonia</button></a>
+         <a href="festa.html"><button>Padrinhos</button></a> 
     
-    <body>
-      <header>
-        <h1>My Website</h1>
-      </header>
-      <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </nav>
-      <main>
-        <h2>Welcome to My Website</h2>
-        <p>This is a simple website.</p>
-        <button onclick="addCSS()" id="button">Toggle CSS</button>
+
+
+
+
+
+
+
+    </div>
     
-      </main>
-      <footer>
-        <p>Copyright © App Brewery</p>
-      </footer>
-      <script>
-        let counter = 0
-        function addCSS() {
-          counter++
-          if (counter % 2 !== 0) {
-            document.getElementById("head").innerHTML = '  <title>Example HTML Website</title> \n<link rel="stylesheet" href="./styles.css" />'
-          } else {
-    
-            document.getElementById("head").innerHTML = '  <title>Example HTML Website</title> '
-    
-          }
-        }
-      </script>
-    
-    
-    </body></html>
+</body>
+</html>
